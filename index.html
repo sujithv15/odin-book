@@ -9,6 +9,47 @@
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
+    <header>
+        <h2>Odin Book List</h2>
+    </header>
+    <div class="library-class">
+
+    </div>
+
+    <p>Add new book?</p>
+    <form action="javascript:" method="post">
+        <ul>
+
+            <li class="form-elements">
+                <label for="title-form">Book Title:</label>
+                <input type="text" class="inputs" id="title-form" placeholder="Title"/>
+            </li>
+
+            <li class="form-elements">
+                <label for="author-form">Author:</label>
+                <input type="text" class="inputs" id="author-form" placeholder="Author"/>
+            </li>
+
+            <li class="form-elements">
+                <label for="numPages-form">Page Number:</label>
+                <input type="number" class="inputs" id="numPages-form"/>
+            </li>
+
+            <li class="form-elements">
+                <label>Finished reading?</label>
+                    <label for="isRead-form-Y">Yes</label>
+                    <input type="radio" class="inputs" id="isRead-form-Y" name="read" value="yes"/>
+                    <label for="isRead-form-N">No</label>
+                    <input type="radio" class="inputs" id="isRead-form-N" name="read" value="no"/>
+            </li>
+
+            <li class="form-elements">
+                <button type="submit" id="submit-btn">Submit Book</button>
+            </li>
+        </ul>
+    </form>
+
+
     <script src="book.js"></script>
 </body>
 </html>
