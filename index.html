@@ -17,30 +17,31 @@
     </div>
 
     <p>Add new book?</p>
-    <form action="javascript:" method="post">
+
+    <form action="javascript:" method="post" class="form-box">
         <ul>
 
             <li class="form-elements">
-                <label for="title-form">Book Title:</label>
+                <label for="title-form" class="labels">Book Title:</label>
                 <input type="text" class="inputs" id="title-form" placeholder="Title"/>
             </li>
 
             <li class="form-elements">
-                <label for="author-form">Author:</label>
+                <label for="author-form" class="labels">Author:</label>
                 <input type="text" class="inputs" id="author-form" placeholder="Author"/>
             </li>
 
             <li class="form-elements">
-                <label for="numPages-form">Page Number:</label>
+                <label for="numPages-form" class="labels">Page Number:</label>
                 <input type="number" class="inputs" id="numPages-form"/>
             </li>
 
             <li class="form-elements">
-                <label>Finished reading?</label>
-                    <label for="isRead-form-Y">Yes</label>
-                    <input type="radio" class="inputs" id="isRead-form-Y" name="read" value="yes"/>
-                    <label for="isRead-form-N">No</label>
-                    <input type="radio" class="inputs" id="isRead-form-N" name="read" value="no"/>
+                <label class="labels">Finished reading?</label>
+                    <label for="isRead-form-Y" class="sublabels">Yes</label>
+                    <input type="radio" class="subinputs" id="isRead-form-Y" name="read" value="yes"/>
+                    <label for="isRead-form-N" class="sublabels">No</label>
+                    <input type="radio" class="subinputs" id="isRead-form-N" name="read" value="no"/>
             </li>
 
             <li class="form-elements">

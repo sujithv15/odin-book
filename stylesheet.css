@@ -1,0 +1,26 @@
+ul {
+    list-style-type: none;
+}
+.form-elements {
+    padding: 5px;
+    width: 50%;
+}
+.inputs {
+    width: 100%;
+    margin: 5px 0 0 10px;
+    padding: 5px;
+}
+.labels {
+    padding-right: 40%;
+}
+
+.sublabels {
+    width: 50%;
+    margin-left: 10px;
+}
+#numPages-form {
+    width: 60px;
+}
+#submit-btn {
+    margin-left: 40%
+}
